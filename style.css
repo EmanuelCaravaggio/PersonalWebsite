@@ -1,0 +1,157 @@
+* { 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+   } 
+
+html, body, h1, h2, h3, h4, h5, h6, div {
+    padding: 0;
+    border: 0;
+    margin: 0;
+  }
+
+:root {
+    --primary-color: #02492f;
+    --light-color: #eee;
+    --white-color: #fff;
+    --dark-color: #F3F2ED;
+}
+
+body {
+    font-family: 'Notable', 'sans-serif';
+    font-size: 16px;
+    line-height: 1,5;
+    background-color: #fff;
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* NavBar */
+.navbar{
+    background: #F3F2ED;
+    padding: 20px 425px;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+}
+.navbar .main-menu ul {
+    display: flex;
+}
+
+.navbar ul li a {
+    padding: 10px 40px;
+    display: block;
+    font-weight: 400;
+    transition: 0.5s;
+}
+
+.navbar ul li a:hover {
+    color: var(--primary-color);
+}
+
+/*Cover*/
+
+hr { width:100%; height:5px; background: var(--primary-color) }
+
+.cover { 
+    margin-bottom: 50px;
+}
+
+.cover .container {
+    height: 780px;
+}
+
+.cover .cover-content {
+    text-align: center;
+    padding: 100px 0px;  
+}
+
+.cover .cover-text {
+    width: 100%;
+}
+
+/* Utility classes */
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.container-sm {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/* text classes*/
+.text-xxl {
+    font-size: 6rem;
+    line-height: 1.2;
+    font-weight: 400;
+    margin: 40px 0 20px;
+}
+
+.text-xl {
+    font-size: 2.2rem;
+    line-height: 1.4;
+    font-weight: normal;
+    margin: 40px 0 20px;
+}
+
+.text-lg {
+    font-size: 1.8rem;
+    line-height: 1.4;
+    font-weight: normal;
+    margin: 30px 0 20px;
+}
+
+.text-md {
+    font-size: 1.2rem;
+    line-height: 1.4;
+    font-weight: normal;
+    margin: 20px 0 10px;
+}
+
+.text-sm {
+    font-size: 0.9rem;
+    line-height: 1.4;
+    font-weight: normal;
+    margin: 10px 0 5px;
+}
+
+/* background */
+.bg-primary {
+    background: var(--primary-color);
+    color: #000;
+}
+
+.bg-light {
+    background: var(--light-color);
+    color: #000;
+}
+
+.bg-photo {
+    background: url("../images/IMG_4818.jpeg")  left bottom no-repeat, url("../images/IMG_7751.jpeg") 400px 385px no-repeat, #F3F2ED no-repeat; 
+    background-size: 400px 400px, 500px 400px,auto;
+    color: #02492f;
+}
+
+.bg-white {
+    background: #F3F2ED; 
+    background-size: auto;
+    color: #02492f;
+}
